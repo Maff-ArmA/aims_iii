@@ -1,0 +1,34 @@
+class Header
+{
+	gameType = AIMS;
+	minPlayers = 1;
+	maxPlayers = 8;
+};
+author = "Maff";
+OnLoadName = "AIMS III (Test I)";
+OnLoadMission = "The Infantry mission is to defeat the enemy through close combat.";
+loadScreen = "client\assets\loadScreen.paa";
+onLoadIntroTime = 0;
+onLoadMissionTime = 0;
+overviewPicture = "";
+aiKills = 0;
+briefing = 1;
+respawn = 3;
+respawnButton = 0;
+respawnDelay = 60;
+respawnDialog = 0;
+respawnOnStart = -1;
+disabledAI = 1;
+enableDebugConsole = 2;
+allowFunctionsRecompile = 1;
+disableChannels[]= {{0,true,true},{1,true,true},{2,true,true},{4,true,true},{5,true,true}};
+corpseManagerMode = 3;
+corpseLimit = 15;
+corpseRemovalMinTime = 120;
+corpseRemovalMaxTime = 240;
+wreckManagerMode = 3;
+wreckLimit = 5;
+wreckRemovalMinTime = 120;
+wreckRemovalMaxTime = 240;
+minPlayerDistance = 75;
+cba_settings_hasSettingsFile = 1;
